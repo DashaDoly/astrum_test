@@ -1,0 +1,81 @@
+.info {
+  display: flex;
+  background:
+    url('../images/BLUE\ GLOW\ 1.png')  bottom right 17px / 1977px 172px no-repeat,
+    url('../images/background\ wall.png') center/cover no-repeat;
+  position: relative;
+}
+
+
+.info__main-image {
+  width: 441px;
+  height: 891px;
+  margin: 31px 160px 133px 359px;
+  z-index: 2;
+}
+
+.info__accent {
+  position: absolute;
+  top: 213px;
+  left: 225px;
+  z-index: 1;
+  width: 680px;
+  height: 686px;
+  border-radius: 686px;
+  border: 1px solid #000;
+  opacity: 0.2;
+  background: #416DF4;
+  mix-blend-mode: lighten;
+  filter: blur(100px);
+}
+
+.info__content {
+  width: 632px;
+  margin-top: 58px;
+}
+
+.info__title {
+  margin-bottom: 35px;
+  color: #416DF4;
+  font-size: 30px;
+}
+
+.info__box {
+  display: flex;
+  align-items: flex-end;
+}
+
+.info__extra-image {
+  width: 402px;
+  height: 323px;
+  margin-top: 20px;
+}
+
+.info__price-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: -139px;
+  margin-bottom: 57px;
+}
+
+.info__price {
+  font-size: 50px;
+}
+
+.info__button {
+  width: 180px;
+  height: 40px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  background: #FCFF00;
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.info__button:hover {
+  opacity: 0.6;
+}

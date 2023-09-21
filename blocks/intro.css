@@ -1,0 +1,57 @@
+.intro {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background:
+    url('../images/glow2.png') bottom left -167px / 1977px 172px no-repeat,
+    url('../images/woman.png') bottom left/577px 876px no-repeat,
+    url('../images/man.png') bottom left 1218px/678px 876px no-repeat,
+    linear-gradient(to right,rgba(0,0,0,0.8) 1%, rgba(0,0,0,0), rgba(0,0,0,0.8) 99%),
+    url('./images/Layer\ 157\ 2.png') top right/462px 934px no-repeat,
+    url('./images/Layer\ 157\ 1.png') top left/462px 934px no-repeat,
+    url('../images/Layer\ 157\ 3.png') bottom left/cover no-repeat,
+    url('../images/main-back.png') center/cover no-repeat;
+}
+
+.intro::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0; left: 0;
+  opacity: 0.4;
+  background:
+    url('../images/glow1.png') center/cover no-repeat;
+}
+
+.intro__logo {
+  background-image: url('../images/logo.png');
+  background-position: center;
+  background-color: transparent;
+  width: 376px;
+  height: 318px;
+  z-index: 2;
+}
+
+.intro__image {
+  width: 766px;
+  height: 525px;
+  margin-top: -54px;
+  z-index: 2;
+}
+
+.intro__title {
+  text-align: center;
+  font-size: 42px;
+  z-index: 2;
+  margin-top: -22px;
+  margin-bottom: 25px;
+}
+
+.intro__subtitle {
+  text-align: center;
+  font-size: 20px;
+  z-index: 2;
+  margin-bottom: 47px;
+}
